@@ -1,4 +1,4 @@
-# Startup
+# GSPC
 Some usefull description
 
 ## Run
