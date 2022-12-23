@@ -1,0 +1,16 @@
+{% extends "base.html.j2" %}
+
+{% block title %} Startup - Search{% endblock %}
+{% block active_people %} active{% endblock %}
+
+{%block body%}
+<div class="container">
+    <h1 class="mt-5">Search for people</h1>
+    <p class="lead">Search results for "{{ q }}"</p>
+
+    <div class="padding15"></div>
+
+    {{ search_table }}
+
+</div>
+{% endblock %}
